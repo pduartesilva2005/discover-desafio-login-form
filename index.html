@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Login Form</title>
+  </head>
+  <body>
+    <main>
+      <div id="header-logo">
+        <img src="./images/logo.svg" alt="Logo da Aplicação" />
+      </div>
+
+      <div id="form-container">
+        <div id="header-form">
+          <div id="title-header-form">
+            <img src="./images/log-in.svg" alt="Ícone de Login" />
+            <h1>Faça seu login</h1>
+          </div>
+
+          <h2>Entre com suas informações de cadastro.</h2>
+        </div>
+
+        <form>
+          <div class="input-email">
+            <label for="email">E-mail</label>
+
+            <div class="input-group">
+              <img
+                src="./images/mail.svg"
+                alt="Ícone de E-mail"
+                id="img-input-box-email"
+              />
+
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+              />
+            </div>
+          </div>
+
+          <div class="input-password">
+            <label for="password">Senha</label>
+
+            <div class="input-group">
+              <img
+                src="./images/lock.svg"
+                alt="Ícone de um cadeado"
+                id="img-input-box-password"
+              />
+
+              <input
+                type="password"
+                name="password"
+                id="password"
+                step="0.01"
+                placeholder="Digite seu e-mail"
+              />
+
+              <img src="./images/eye.svg" alt="Ícone de um olho" />
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <div>
+              <input type="checkbox" name="remember-me" id="remember-me" />
+              <span class="checkmark" for="remember-me"></span>
+              <label for="remember-me">Lembrar-me</label>
+            </div>
+
+            <a href="#">Esqueci a minha senha</a>
+          </div>
+
+          <button>
+            <span>Entrar</span>
+          </button>
+
+          <a href="#" class="register">
+            Não tem uma conta? <strong>Registre-se</strong>
+          </a>
+        </form>
+      </div>
+    </main>
+
+    <aside>
+      <img src="./images/side-image-2x.jpg" alt="Imagem de fundo" />
+    </aside>
+  </body>
+</html>
